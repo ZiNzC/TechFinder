@@ -3,8 +3,26 @@ body {
 }
 
 table, th, td {
+    background-color: white;
+
     border: 1px solid black;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 12%;
 }
+
+th {
+    padding: 3%;
+} 
+
+td p {
+    display: inline;
+    margin-left: 10%;
+}
+
+td .button {
+    float: right;
+}
+
+  
