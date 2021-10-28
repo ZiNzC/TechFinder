@@ -1,20 +1,7 @@
 body {
+    padding: 0px;
+    margin: 0px;
     background-image: url("../images/background_img.jpg");
     background-size: 100%;
-}
-
-.navbar_top {
-    background-color: black;
-    position: relative;
-    padding: 10px;
-}
-
-.navbar_top a {
-    color: white;
-    margin-left: 10%;
-}
-
-.navbar_top a:hover {
-    background-color: blue;
 }
 
