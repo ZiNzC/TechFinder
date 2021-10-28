@@ -38,6 +38,7 @@ for (i of list_of_boxes){
             // Stylinng Box
     anchor.style.padding = "10px";
     anchor.style.marginLeft = "12%";
+    anchor.style.textAlign = "center";
             // Styling text content
     anchor.style.textDecoration = "none";
     anchor.style.color = "white";
