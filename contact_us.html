@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us | TechFinder</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesheets/main.css">
+        <link rel="stylesheet" href="stylesheets/contact_form.css">
+    </head>
+    <body>
+        <div class="navbar_top">
+            <a href="homepage.html">Homepage</a>
+            <a href="games.html">Games</a>
+            <a href="software.html">Software</a>
+            <a href="hardware.html">Hardware</a>
+            <a href="about_us.html">About us</a>
+            <a href="contact_us.html">Contact us</a>
+        </div>
+        <h2>Contact Us</h2>
+        <p>Do you have any questions, issues to report or general feedback? Feel free to contact us using the form below and we'll get back to you as soon as possible.</p>
+        <br>
+        <form>
+            <fieldset><!--legend>Contact form</legend-->
+                <label>Name</label><input type="text" name="name" placeholder="  Name" required>
+                <br><br><label>E-Mail</label><input type="text" name="email" placeholder="  E-Mail" required>
+                <br><br><label>Your message</label><textarea name="message" cols="80" rows="20" placeholder="  Message" required></textarea>
+                <br><input type="submit" onclick="alert('Your message has been sent to our support team.')">
+            </fieldset>
+        </form>
+    </body>
+</html>

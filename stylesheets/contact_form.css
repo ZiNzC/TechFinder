@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+p {
+    max-width: 600px;
+    margin: auto;
+}
+fieldset {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    border-style: none;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+input {
+    width: 99%;
+    height: 40px;
+    margin: 10px 0 0 1px;
+    border-radius: 10px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+}
+textarea {
+    border-radius: 10px;
+    margin-top: 10px;
+    border-style: none;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+}
+input[type=submit] {
+    width: 99.5%;
+}
+label {
+    padding-left: 1px;
+}
+legend {
+    font-size: 20px;
+    text-align: center;
+}
